@@ -10,7 +10,6 @@ namespace CD_UploadTool
 {
     class UploadTool
     {
-        //bsp: t=“renew“ pw=“3ra96erznG/e“ un=“203390-releases-intern“ host=“ftp.copadata.at“ folder=“/Dokumentation/1000SP0“
         public static void renew(string username, string password, string host, string folder)
         {
             string local_save = "C:\\ProgramData\\LANGUAGES.xml";
@@ -32,7 +31,6 @@ namespace CD_UploadTool
             }
         }
 
-        //bsp: t=“upload“ pw=“3ra96erznG/e“ un=“203390-releases-intern“ host=“ftp.copadata.at“ path=“/Dokumentation/1000SP0/Test_upload“ src=“G:\zenon1000\FINAL\HELP\Supervisor\en.cdhelp“
         public static void upload(string username, string password, string host, string path, string src)
         {
             string[] file = src.Split('/', '\\');
